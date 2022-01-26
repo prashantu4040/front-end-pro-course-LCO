@@ -1,0 +1,364 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+
+    <!-- Bootstrap CSS -->
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+      integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+      crossorigin="anonymous"
+    />
+
+    <!-- font awesome css -->
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
+      integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm"
+      crossorigin="anonymous"
+    />
+
+    <!-- https://github.com/pixelsign/html5-device-mockups -->
+    <!-- Device mockup css -->
+    <link rel="stylesheet" href="device.min.css" />
+
+    <!-- custom css -->
+    <link rel="stylesheet" href="./css/style.css" />
+
+    <title>Super FM App - Launch page</title>
+  </head>
+
+  <body>
+    <header class="header">
+      <nav class="navbar navbar-expand-lg">
+        <div class="container">
+          <a href="#" class="navbar-brand">
+            <img src="./app/logo.png" class="img-fluid" alt="Logo of brand" />
+          </a>
+
+          <!-- Navigation toggler -->
+
+          <button
+            class="navbar-toggler navbar-toggler-right"
+            type="button"
+            data-toggle="collapse"
+            data-target="#navbarSupportedContent"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"
+              ><i class="fas fa-arrow-down"></i>
+              <p class="lead">Menu</p>
+            </span>
+          </button>
+
+          <!-- Actual menu items -->
+
+          <div id="navbarSupportedContent" class="collapse navbar-collapse">
+            <!-- center menu -->
+            <ul class="navbar-nav mx-auto ml-auto">
+              <li class="nav-item"><a class="nav-link" href="#">Home</a></li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Features</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">get Started</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="#"
+                  id="navbarDropdownMenuLink"
+                  data-toggle="dropdown"
+                  aria-haspopup="true"
+                  aria-expanded="false"
+                >
+                  Pages
+                </a>
+                <div
+                  class="dropdown-menu"
+                  aria-labelledby="navbarDropdownMenuLink"
+                >
+                  <a class="dropdown-item" href="#">Services</a>
+                  <a class="dropdown-item" href="#">Prize</a>
+                  <a class="dropdown-item" href="#">Referels</a>
+                </div>
+              </li>
+            </ul>
+
+            <!-- right button -->
+            <ul class="navbar-nav">
+              <li class="nav-items">
+                <a
+                  data-target="#login"
+                  data-toggle="modal"
+                  class="nav-link mr-3"
+                  href="#"
+                  >Login</a
+                >
+              </li>
+              <li class="nav-items">
+                <a class="nav-link btn btn-primary" href="#"> Get Started </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <!-- login modal -->
+
+    <div
+      class="modal fade"
+      id="login"
+      tabindex="-1"
+      role="dialog"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel">Super FM App</h5>
+            <button
+              type="button"
+              class="close"
+              data-dismiss="modal"
+              aria-label="Close"
+            >
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <form>
+              <div class="form-group">
+                <input
+                  type="email"
+                  class="form-control"
+                  placeholder="Your email..."
+                />
+              </div>
+              <div class="form-group">
+                <input
+                  type="password"
+                  class="form-control"
+                  placeholder="***********"
+                />
+              </div>
+              <button type="submit" class="btn btn-block btn-outline-primary">
+                Login
+              </button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="page">
+      <section class="hero section-1">
+        <div class="container mt-4">
+          <div class="row align-item-center">
+            <div class="col-lg-6 mt-4">
+              <h1 class="hero-heading display-3">
+                A perfect theme for your APP Launch
+              </h1>
+              <p class="lead font-weight-light">
+                This template can be used for an appa launcg. it uses modern
+                design and is compatable with mobile devices
+              </p>
+
+              <!-- Subscrition form -->
+
+              <div class="input-group mb-3 mybold">
+                <input
+                  type="text"
+                  class="form-control"
+                  placeholder="Enter Tour email to get it first"
+                />
+                <div class="input-group-append">
+                  <button class="btn btn-primary mybold">Subscribe</button>
+                </div>
+              </div>
+
+              <!-- App available at -->
+
+              <div class="platform d-none d-lg-block">
+                <span class="platform-title">App available at</span>
+                <ul class="platform-list list-incline">
+                  <li class="list-inline-item">
+                    <img
+                      src="svgs/android.svg"
+                      class="platform-image img-fluid"
+                      alt="android"
+                    />
+                  </li>
+                  <li class="list-inline-item">
+                    <img
+                      src="svgs/apple.svg"
+                      class="platform-image img-fluid"
+                      alt="apple"
+                    />
+                  </li>
+                  <li class="list-inline-item">
+                    <img
+                      src="svgs/windows.svg"
+                      class="platform-image img-fluid"
+                      alt="windows"
+                    />
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div class="col-lg-6 d-none d-lg-block">
+              <div class="device-wrapper mx-auto">
+                <div
+                  class="device"
+                  data-device="iPhone7"
+                  data-orientation="portrait"
+                  data-color="black"
+                >
+                  <div class="screen">
+                    <img
+                      src="./app/app.png"
+                      alt="app screenshot"
+                      class="img-fluid"
+                    />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- feature section -->
+      <section class="feature mt-5">
+        <div class="container">
+          <div class="section-header text-center">
+            <span class="text-primary">Amazing Feature</span>
+            <h2 class="display-4">Customized App</h2>
+            <div class="row">
+              <div class="col-lg-10 mx-auto">
+                <p class="lead mybold">
+                  Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                  Commodi debitis, temporibus eligendi perspiciatis quia
+                  adipisci voluptatibus. Voluptate at distinctio quibusdam quos
+                  eaque deleniti vitae voluptas fugit? Aperiam veniam
+                  accusantium id facilis doloribus ipsam optio velit harum quam
+                  eos atque voluptate quibusdam tempora, incidunt enim fugit
+                  saepe et quo dignissimos sunt.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- feature section end -->
+
+      <!-- Feature block start -->
+      <section class="feature-2 mt-5 mybold">
+        <div class="container">
+          <div class="row text-center">
+            <div class="col-lg-4">
+              <div class="feature-item mb-5 mb-lg0">
+                <div class="gradient-icon gradient-1">
+                  <i class="fas fa-cog"></i>
+                </div>
+                <h3 class="h5">Machine Learning</h3>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Possimus necessitatibus magni placeat, laudantium dolorum
+                  dolor?
+                </p>
+                <a href="#" class="feature-link">Learn more</a>
+              </div>
+            </div>
+            <div class="col-lg-4">
+              <div class="feature-item mb-5 mb-lg0">
+                <div class="gradient-icon gradient-2">
+                  <i class="fas fa-users-cog"></i>
+                </div>
+                <h3 class="h5">Data Science</h3>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Possimus necessitatibus magni placeat, laudantium dolorum
+                  dolor?
+                </p>
+                <a href="#" class="feature-link">Learn more</a>
+              </div>
+            </div>
+            <div class="col-lg-4">
+              <div class="feature-item mb-5 mb-lg0">
+                <div class="gradient-icon gradient-3">
+                  <i class="fas fa-cogs"></i>
+                </div>
+                <h3 class="h5">Python and JS</h3>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Possimus necessitatibus magni placeat, laudantium dolorum
+                  dolor?
+                </p>
+                <a href="#" class="feature-link">Learn more</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- featue block end -->
+
+
+      <!-- action bar starts -->
+
+
+      <div class="container-fluid bg-primary text-center text-white my-4 py-5">
+        <h2 class="display-3">Download Now.!</h2>
+        <button class="btn btn-light btn-lg mybold mt-3">App Store</button>
+      </div>
+      <!-- action bar ends -->
+
+      <!-- Social icons starts -->
+
+      <div class="container text-center display-3">
+        <ul class="list-inline-item">
+          <li class="list-inline-item mx-5"><a href="#"><i class="fab fa-instagram"></i></a></li>
+          <li class="list-inline-item mx-5"><a href="#"><i class="fab fa-facebook"></i></a></li>
+          <li class="list-inline-item mx-5"><a href="#"><i class="fab fa-youtube"></i></a></li>
+        </ul>
+      </div>
+      <!-- social icons end -->
+
+      <div class="container-fluid text-light text-center fun">
+        <p class="h3">Copyright by <a href="#" class="text-light">Prashant</a></p>
+        <p class="copyright-text lead mb-2">
+          Coded by <a href="https://prashantu4040.github.io/" target="_blank" class="text-wrapping text-warning">Prashant</a>
+        </p>
+      </div>
+    </div>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script
+      src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+      integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+      integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+      integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
